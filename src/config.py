@@ -1,23 +1,23 @@
 ### Fill in the values below to localize
 
 #The sheet of publisher information that has been shared to CSV
-PUB_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRPFcOiXgZAo6XENgRXj3FoQ_BnbsYtAJq0QtlnhjGmpIkQjIp8eZNX6C66tcaooh1pfaUR8AULfSji/pub?gid=1143475194&single=true&output=csv"
+PUB_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR__J0XxJd73Z1lwmH-ZPTTZZK2HTFtjz2E9FgMajKgu5dFvpP6y3yHQcGfajSTmq3ks_Ycs-32HF2H/pub?gid=502886766&single=true&output=csv"
 
 #The sheet of journal information that has been shared to CSV
-JOURNAL_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRPFcOiXgZAo6XENgRXj3FoQ_BnbsYtAJq0QtlnhjGmpIkQjIp8eZNX6C66tcaooh1pfaUR8AULfSji/pub?gid=0&single=true&output=csv"
+JOURNAL_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR__J0XxJd73Z1lwmH-ZPTTZZK2HTFtjz2E9FgMajKgu5dFvpP6y3yHQcGfajSTmq3ks_Ycs-32HF2H/pub?gid=0&single=true&output=csv"
 
 #The form that is collecting the 'logged' ISSN and Publisher look-ups. Please check docs for more info
-L_URL = "https://docs.google.com/forms/d/e/1FAIpQLSe61TNpD96WMGonWeV-w0nkvQjGRCfKaB6qsFmzQQXhquFiiA/formResponse"
-ISSN_ENTRY = "entry.192508866"
-PUBLISHER_ENTRY = "entry.789120919"
+L_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfmSEF0SV3pxKsmcmWAwKAWgV-k14yPZl5g7AYa3CI9TJJ4yQ/formResponse"
+ISSN_ENTRY = "entry.192508000"
+PUBLISHER_ENTRY = "entry.789120000"
 
 
 ### You can use Markdown in the following to localize to your place
 PREAMBLE = """
 # Article Processing Charge Agreements
-Below are details about what Article Processing Charge (APC) discounts and waivers are available to members of the Brock community. More details can be found on the library site [:link:](https://brocku.ca/library/open-access/open-access-investments/). Title lists are built using  ULRICHs data [:link:](https://ulrichsweb.serialssolutions.com/login). Every effort has been made to ensure data is correct.
+Below are details about what Article Processing Charge (APC) discounts and waivers are available to members of the Carleton community. More details can be found on the library site [:link:](https://brocku.ca/library/open-access/open-access-investments/). Title lists are built using  ULRICHs data [:link:](https://ulrichsweb.serialssolutions.com/login). Every effort has been made to ensure data is correct.
 
- :spiral_calendar: **Information Last Updated - September 4, 2026.**
+ :spiral_calendar: **Information Last Updated - November 16, 2026.**
 
 
 """
