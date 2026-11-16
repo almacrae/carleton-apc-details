@@ -71,4 +71,4 @@ _Need more help:question: Contact Alisdair [:mailbox:](https://library.carleton.
 
 ### Other Configs
 LOGGING = True #Switch to true to log lookups of publisher and issn to Google Sheet defined in L_URL
-IMAGE_PATH = "images/logo.png" #Put your logo in the images folder, renamed to logo.png, defaults to 200 px wide
+IMAGE_PATH = "images/carleton-logo.png" #Put your logo in the images folder, renamed to logo.png, defaults to 200 px wide
