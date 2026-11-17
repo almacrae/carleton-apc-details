@@ -8,14 +8,14 @@ JOURNAL_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR__J0XxJd73Z1lwm
 
 #The form that is collecting the 'logged' ISSN and Publisher look-ups. Please check docs for more info
 L_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfmSEF0SV3pxKsmcmWAwKAWgV-k14yPZl5g7AYa3CI9TJJ4yQ/formResponse"
-ISSN_ENTRY = "entry.192508000"
-PUBLISHER_ENTRY = "entry.789120000"
+ISSN_ENTRY = "entry.2103022844"
+PUBLISHER_ENTRY = "entry.1966062254"
 
 
 ### You can use Markdown in the following to localize to your place
 PREAMBLE = """
 # Article Processing Charge Agreements
-Below are details about what Article Processing Charge (APC) discounts and waivers are available to members of the Carleton community. More details can be found on the library site [:link:](https://brocku.ca/library/open-access/open-access-investments/). Title lists are built using  ULRICHs data [:link:](https://ulrichsweb.serialssolutions.com/login). Every effort has been made to ensure data is correct.
+Below are details about what Article Processing Charge (APC) discounts and waivers are available to members of the Carleton community. More details can be found on the library site [:link:](https://library.carleton.ca/services/scholarly-communications/open-access-oa-overview). Title lists are built using  ULRICHs data [:link:](https://ulrichsweb.serialssolutions.com/login). Every effort has been made to ensure data is correct.
 
  :spiral_calendar: **Information Last Updated - November 16, 2026.**
 
@@ -70,5 +70,5 @@ _Need more help:question: Contact Alisdair [:mailbox:](https://library.carleton.
 """
 
 ### Other Configs
-LOGGING = True #Switch to true to log lookups of publisher and issn to Google Sheet defined in L_URL
+LOGGING = False #Switch to true to log lookups of publisher and issn to Google Sheet defined in L_URL
 IMAGE_PATH = "images/carleton-logo.png" #Put your logo in the images folder, renamed to logo.png, defaults to 200 px wide
