@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import pandas as pd
+import numpy as np
 import config
 
 
@@ -20,9 +21,16 @@ def get_data(JOURNAL_URL, PUB_URL):
     journalDF = pd.read_csv(JOURNAL_URL)
     pub_DF = pd.read_csv(PUB_URL)
     combined_DF = pd.merge(journalDF,pub_DF, on="Publisher")
-
-    pub_DF["Publisher Description"] = "**"+pub_DF["Publisher"] + "** [:link:](" + pub_DF["pubUrl"]+")"
+    pub_builder = []
+    for i,r in pub_DF.iterrows():
+        if r["pubUrl"] == str:
+    	    pub_builder.append("**"+r["Publisher"] + "** [:link:](" + r["pubUrl"]+")")
+    	    
+        else:
+            pub_builder.append("**"+r["Publisher"] + "**")
+    pub_DF["Publisher Description"] = pub_builder
     del pub_DF["pubUrl"]
+
     pub_DF.columns = ["Publisher","Discount","Publisher Description"]
     combined_DF.columns = ["Publisher","Title","ISSN","Verified","Type","Publisher URL","Publisher Discount"]
     combined_DF.sort_values(by=['Title','Publisher'], inplace=True, key=lambda col: col.str.lower() )
