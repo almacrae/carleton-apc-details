@@ -17,7 +17,7 @@ PREAMBLE = """
 # Article Processing Charge Agreements
 Below are details about what Article Processing Charge (APC) discounts and waivers are available to members of the Carleton community. More details can be found on the library site [:link:](https://library.carleton.ca/services/scholarly-communications/open-access-oa-overview). Title lists are built using  ULRICHs data [:link:](https://ulrichsweb.serialssolutions.com/login). Every effort has been made to ensure data is correct.
 
- :spiral_calendar: **Information Last Updated - November 16, 2026.**
+ :spiral_calendar: **Information Last Updated - November 20, 2026.**
 
 
 """
